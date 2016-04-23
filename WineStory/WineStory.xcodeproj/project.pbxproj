@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5F174898AEB1F22B7C1812 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC07A21B0FB8EB282ACE8B8 /* libPods.a */; };
+		D0123FB01CCAD6D4008B3DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0123FAF1CCAD6D4008B3DC3 /* main.m */; };
+		D0123FB31CCAD6D4008B3DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0123FB21CCAD6D4008B3DC3 /* AppDelegate.m */; };
+		D0123FB61CCAD6D4008B3DC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0123FB51CCAD6D4008B3DC3 /* ViewController.m */; };
+		D0123FB91CCAD6D4008B3DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0123FB71CCAD6D4008B3DC3 /* Main.storyboard */; };
+		D0123FBC1CCAD6D4008B3DC3 /* WineStory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0123FBA1CCAD6D4008B3DC3 /* WineStory.xcdatamodeld */; };
+		D0123FBE1CCAD6D5008B3DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0123FBD1CCAD6D5008B3DC3 /* Assets.xcassets */; };
+		D0123FC11CCAD6D5008B3DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0123FBF1CCAD6D5008B3DC3 /* LaunchScreen.storyboard */; };
+		D0123FCC1CCAD6D5008B3DC3 /* WineStoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0123FCB1CCAD6D5008B3DC3 /* WineStoryTests.m */; };
+		D0123FD71CCAD6D5008B3DC3 /* WineStoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0123FD61CCAD6D5008B3DC3 /* WineStoryUITests.m */; };
+		D0123FE51CCADD93008B3DC3 /* wine.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0123FE41CCADD93008B3DC3 /* wine.plist */; };
+		D0123FE81CCADDD7008B3DC3 /* Wine.m in Sources */ = {isa = PBXBuildFile; fileRef = D0123FE71CCADDD7008B3DC3 /* Wine.m */; };
+		D0123FEB1CCADF18008B3DC3 /* WineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0123FEA1CCADF18008B3DC3 /* WineCell.m */; };
+		D0123FEE1CCB0C55008B3DC3 /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0123FED1CCB0C55008B3DC3 /* CircleButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0123FC81CCAD6D5008B3DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0123FA31CCAD6D4008B3DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0123FAA1CCAD6D4008B3DC3;
+			remoteInfo = WineStory;
+		};
+		D0123FD31CCAD6D5008B3DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0123FA31CCAD6D4008B3DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0123FAA1CCAD6D4008B3DC3;
+			remoteInfo = WineStory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25A5FBFC3F875654D03BF0A6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5BC07A21B0FB8EB282ACE8B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F5DCE5343FBB4E016B1AF0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D0123FAB1CCAD6D4008B3DC3 /* WineStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0123FAF1CCAD6D4008B3DC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0123FB11CCAD6D4008B3DC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0123FB21CCAD6D4008B3DC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0123FB41CCAD6D4008B3DC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0123FB51CCAD6D4008B3DC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0123FB81CCAD6D4008B3DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0123FBB1CCAD6D4008B3DC3 /* WineStory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WineStory.xcdatamodel; sourceTree = "<group>"; };
+		D0123FBD1CCAD6D5008B3DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0123FC01CCAD6D5008B3DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0123FC21CCAD6D5008B3DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0123FC71CCAD6D5008B3DC3 /* WineStoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineStoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0123FCB1CCAD6D5008B3DC3 /* WineStoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineStoryTests.m; sourceTree = "<group>"; };
+		D0123FCD1CCAD6D5008B3DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0123FD21CCAD6D5008B3DC3 /* WineStoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineStoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0123FD61CCAD6D5008B3DC3 /* WineStoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WineStoryUITests.m; sourceTree = "<group>"; };
+		D0123FD81CCAD6D5008B3DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0123FE41CCADD93008B3DC3 /* wine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wine.plist; sourceTree = "<group>"; };
+		D0123FE61CCADDD7008B3DC3 /* Wine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wine.h; sourceTree = "<group>"; };
+		D0123FE71CCADDD7008B3DC3 /* Wine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wine.m; sourceTree = "<group>"; };
+		D0123FE91CCADF18008B3DC3 /* WineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineCell.h; sourceTree = "<group>"; };
+		D0123FEA1CCADF18008B3DC3 /* WineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineCell.m; sourceTree = "<group>"; };
+		D0123FEC1CCB0C55008B3DC3 /* CircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleButton.h; sourceTree = "<group>"; };
+		D0123FED1CCB0C55008B3DC3 /* CircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0123FA81CCAD6D4008B3DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5F174898AEB1F22B7C1812 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0123FC41CCAD6D5008B3DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0123FCF1CCAD6D5008B3DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249AC8586E97E8D194B48410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC07A21B0FB8EB282ACE8B8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A152B7F145D929618E3E5B25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84F5DCE5343FBB4E016B1AF0 /* Pods.debug.xcconfig */,
+				25A5FBFC3F875654D03BF0A6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0123FA21CCAD6D4008B3DC3 = {
+			isa = PBXGroup;
+			children = (
+				D0123FAD1CCAD6D4008B3DC3 /* WineStory */,
+				D0123FCA1CCAD6D5008B3DC3 /* WineStoryTests */,
+				D0123FD51CCAD6D5008B3DC3 /* WineStoryUITests */,
+				D0123FAC1CCAD6D4008B3DC3 /* Products */,
+				A152B7F145D929618E3E5B25 /* Pods */,
+				249AC8586E97E8D194B48410 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0123FAC1CCAD6D4008B3DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0123FAB1CCAD6D4008B3DC3 /* WineStory.app */,
+				D0123FC71CCAD6D5008B3DC3 /* WineStoryTests.xctest */,
+				D0123FD21CCAD6D5008B3DC3 /* WineStoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0123FAD1CCAD6D4008B3DC3 /* WineStory */ = {
+			isa = PBXGroup;
+			children = (
+				D0123FB11CCAD6D4008B3DC3 /* AppDelegate.h */,
+				D0123FB21CCAD6D4008B3DC3 /* AppDelegate.m */,
+				D0123FB41CCAD6D4008B3DC3 /* ViewController.h */,
+				D0123FB51CCAD6D4008B3DC3 /* ViewController.m */,
+				D0123FE61CCADDD7008B3DC3 /* Wine.h */,
+				D0123FE71CCADDD7008B3DC3 /* Wine.m */,
+				D0123FE91CCADF18008B3DC3 /* WineCell.h */,
+				D0123FEA1CCADF18008B3DC3 /* WineCell.m */,
+				D0123FEC1CCB0C55008B3DC3 /* CircleButton.h */,
+				D0123FED1CCB0C55008B3DC3 /* CircleButton.m */,
+				D0123FB71CCAD6D4008B3DC3 /* Main.storyboard */,
+				D0123FBD1CCAD6D5008B3DC3 /* Assets.xcassets */,
+				D0123FBF1CCAD6D5008B3DC3 /* LaunchScreen.storyboard */,
+				D0123FC21CCAD6D5008B3DC3 /* Info.plist */,
+				D0123FBA1CCAD6D4008B3DC3 /* WineStory.xcdatamodeld */,
+				D0123FAE1CCAD6D4008B3DC3 /* Supporting Files */,
+			);
+			path = WineStory;
+			sourceTree = "<group>";
+		};
+		D0123FAE1CCAD6D4008B3DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0123FE41CCADD93008B3DC3 /* wine.plist */,
+				D0123FAF1CCAD6D4008B3DC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0123FCA1CCAD6D5008B3DC3 /* WineStoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0123FCB1CCAD6D5008B3DC3 /* WineStoryTests.m */,
+				D0123FCD1CCAD6D5008B3DC3 /* Info.plist */,
+			);
+			path = WineStoryTests;
+			sourceTree = "<group>";
+		};
+		D0123FD51CCAD6D5008B3DC3 /* WineStoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0123FD61CCAD6D5008B3DC3 /* WineStoryUITests.m */,
+				D0123FD81CCAD6D5008B3DC3 /* Info.plist */,
+			);
+			path = WineStoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0123FAA1CCAD6D4008B3DC3 /* WineStory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0123FDB1CCAD6D5008B3DC3 /* Build configuration list for PBXNativeTarget "WineStory" */;
+			buildPhases = (
+				FB03CC444BEDA8BED1E3BF03 /* Check Pods Manifest.lock */,
+				D0123FA71CCAD6D4008B3DC3 /* Sources */,
+				D0123FA81CCAD6D4008B3DC3 /* Frameworks */,
+				D0123FA91CCAD6D4008B3DC3 /* Resources */,
+				3AEACF3258DDC32D731AF4F4 /* Embed Pods Frameworks */,
+				D5BE95CD5E55C4E1E9EB9C3B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WineStory;
+			productName = WineStory;
+			productReference = D0123FAB1CCAD6D4008B3DC3 /* WineStory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0123FC61CCAD6D5008B3DC3 /* WineStoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0123FDE1CCAD6D5008B3DC3 /* Build configuration list for PBXNativeTarget "WineStoryTests" */;
+			buildPhases = (
+				D0123FC31CCAD6D5008B3DC3 /* Sources */,
+				D0123FC41CCAD6D5008B3DC3 /* Frameworks */,
+				D0123FC51CCAD6D5008B3DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0123FC91CCAD6D5008B3DC3 /* PBXTargetDependency */,
+			);
+			name = WineStoryTests;
+			productName = WineStoryTests;
+			productReference = D0123FC71CCAD6D5008B3DC3 /* WineStoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0123FD11CCAD6D5008B3DC3 /* WineStoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0123FE11CCAD6D5008B3DC3 /* Build configuration list for PBXNativeTarget "WineStoryUITests" */;
+			buildPhases = (
+				D0123FCE1CCAD6D5008B3DC3 /* Sources */,
+				D0123FCF1CCAD6D5008B3DC3 /* Frameworks */,
+				D0123FD01CCAD6D5008B3DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0123FD41CCAD6D5008B3DC3 /* PBXTargetDependency */,
+			);
+			name = WineStoryUITests;
+			productName = WineStoryUITests;
+			productReference = D0123FD21CCAD6D5008B3DC3 /* WineStoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0123FA31CCAD6D4008B3DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yf;
+				TargetAttributes = {
+					D0123FAA1CCAD6D4008B3DC3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D0123FC61CCAD6D5008B3DC3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D0123FAA1CCAD6D4008B3DC3;
+					};
+					D0123FD11CCAD6D5008B3DC3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D0123FAA1CCAD6D4008B3DC3;
+					};
+				};
+			};
+			buildConfigurationList = D0123FA61CCAD6D4008B3DC3 /* Build configuration list for PBXProject "WineStory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0123FA21CCAD6D4008B3DC3;
+			productRefGroup = D0123FAC1CCAD6D4008B3DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0123FAA1CCAD6D4008B3DC3 /* WineStory */,
+				D0123FC61CCAD6D5008B3DC3 /* WineStoryTests */,
+				D0123FD11CCAD6D5008B3DC3 /* WineStoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0123FA91CCAD6D4008B3DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0123FC11CCAD6D5008B3DC3 /* LaunchScreen.storyboard in Resources */,
+				D0123FBE1CCAD6D5008B3DC3 /* Assets.xcassets in Resources */,
+				D0123FB91CCAD6D4008B3DC3 /* Main.storyboard in Resources */,
+				D0123FE51CCADD93008B3DC3 /* wine.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0123FC51CCAD6D5008B3DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0123FD01CCAD6D5008B3DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEACF3258DDC32D731AF4F4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5BE95CD5E55C4E1E9EB9C3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB03CC444BEDA8BED1E3BF03 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0123FA71CCAD6D4008B3DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0123FE81CCADDD7008B3DC3 /* Wine.m in Sources */,
+				D0123FB61CCAD6D4008B3DC3 /* ViewController.m in Sources */,
+				D0123FB31CCAD6D4008B3DC3 /* AppDelegate.m in Sources */,
+				D0123FBC1CCAD6D4008B3DC3 /* WineStory.xcdatamodeld in Sources */,
+				D0123FEB1CCADF18008B3DC3 /* WineCell.m in Sources */,
+				D0123FB01CCAD6D4008B3DC3 /* main.m in Sources */,
+				D0123FEE1CCB0C55008B3DC3 /* CircleButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0123FC31CCAD6D5008B3DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0123FCC1CCAD6D5008B3DC3 /* WineStoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0123FCE1CCAD6D5008B3DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0123FD71CCAD6D5008B3DC3 /* WineStoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0123FC91CCAD6D5008B3DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0123FAA1CCAD6D4008B3DC3 /* WineStory */;
+			targetProxy = D0123FC81CCAD6D5008B3DC3 /* PBXContainerItemProxy */;
+		};
+		D0123FD41CCAD6D5008B3DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0123FAA1CCAD6D4008B3DC3 /* WineStory */;
+			targetProxy = D0123FD31CCAD6D5008B3DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0123FB71CCAD6D4008B3DC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0123FB81CCAD6D4008B3DC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0123FBF1CCAD6D5008B3DC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0123FC01CCAD6D5008B3DC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0123FD91CCAD6D5008B3DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0123FDA1CCAD6D5008B3DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0123FDC1CCAD6D5008B3DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F5DCE5343FBB4E016B1AF0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WineStory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.WineStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0123FDD1CCAD6D5008B3DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A5FBFC3F875654D03BF0A6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WineStory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.WineStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0123FDF1CCAD6D5008B3DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WineStoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.WineStoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WineStory.app/WineStory";
+			};
+			name = Debug;
+		};
+		D0123FE01CCAD6D5008B3DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WineStoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.WineStoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WineStory.app/WineStory";
+			};
+			name = Release;
+		};
+		D0123FE21CCAD6D5008B3DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WineStoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.WineStoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WineStory;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0123FE31CCAD6D5008B3DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WineStoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youfeng.WineStoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WineStory;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0123FA61CCAD6D4008B3DC3 /* Build configuration list for PBXProject "WineStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0123FD91CCAD6D5008B3DC3 /* Debug */,
+				D0123FDA1CCAD6D5008B3DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0123FDB1CCAD6D5008B3DC3 /* Build configuration list for PBXNativeTarget "WineStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0123FDC1CCAD6D5008B3DC3 /* Debug */,
+				D0123FDD1CCAD6D5008B3DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0123FDE1CCAD6D5008B3DC3 /* Build configuration list for PBXNativeTarget "WineStoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0123FDF1CCAD6D5008B3DC3 /* Debug */,
+				D0123FE01CCAD6D5008B3DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0123FE11CCAD6D5008B3DC3 /* Build configuration list for PBXNativeTarget "WineStoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0123FE21CCAD6D5008B3DC3 /* Debug */,
+				D0123FE31CCAD6D5008B3DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0123FBA1CCAD6D4008B3DC3 /* WineStory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0123FBB1CCAD6D4008B3DC3 /* WineStory.xcdatamodel */,
+			);
+			currentVersion = D0123FBB1CCAD6D4008B3DC3 /* WineStory.xcdatamodel */;
+			path = WineStory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0123FA31CCAD6D4008B3DC3 /* Project object */;
+}
